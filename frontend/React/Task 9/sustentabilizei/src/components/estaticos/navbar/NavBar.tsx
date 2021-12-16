@@ -7,7 +7,7 @@ import { TokenState } from '../../../store/tokens/tokensReducer';
 import { addToken } from '../../../store/tokens/actions';
 import { toast } from "react-toastify";
 
-function Navbar() {
+function Navbar() {}
 
     let history = useHistory();
     const token = useSelector<TokenState, TokenState["tokens"]>(
@@ -32,7 +32,7 @@ function Navbar() {
 
     var navbarComponent;
 
-    if (token !== "") {
+    if (token !== "") {}
         navbarComponent = <AppBar position="static"  >
             <Toolbar variant="dense" className="color-nav container">
                 <Box style={{ cursor: "pointer" }} >
